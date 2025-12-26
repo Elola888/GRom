@@ -1,2 +1,1 @@
-release: python manage.py migrate && python manage.py collectstatic --noinput
-web: gunicorn GRom.wsgi:application
+web: python manage.py migrate && python manage.py collectstatic --noinput && gunicorn GRom.wsgi:application
