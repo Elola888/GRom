@@ -1,0 +1,49 @@
+# Environment
+env/
+venv/
+.venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Database
+db.sqlite3
+*.sqlite3
+db.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Static files
+staticfiles/
+/static/
+
+# Django
+*.log
+/media/
+
+# Testing
+.coverage
+htmlcov/
+
+# Build
+dist/
+build/
+*.egg-info/
